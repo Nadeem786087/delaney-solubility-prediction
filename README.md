@@ -1,12 +1,6 @@
-# 🧬 Molecular Properties for Drug Discovery — Solubility Prediction Project
+#  Molecular Properties for Drug Discovery — Solubility Prediction Project
 
-**Author:** Muhammad Nadeem  
-**Field:** Bioinformatics & Computational Drug Design  
-**Repository:** `delaney-solubility-prediction`
-
----
-
-## 🧠 Overview
+## Overview
 
 This project applies **machine learning techniques** to predict **aqueous solubility (logS)** of drug-like molecules using the **Delaney (ESOL)** dataset.  
 The study demonstrates how **molecular descriptors** can be used to estimate a key pharmacokinetic property — solubility — which plays a critical role in **drug absorption, distribution, and bioavailability**.
@@ -20,13 +14,13 @@ The notebook — `Molecular_Properties_for_Drug_Discovery.ipynb` — walks throu
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 **Dataset name:** Delaney ESOL Dataset (preprocessed version)  
 **Source:** John S. Delaney, *Journal of Chemical Information and Computer Sciences* (2004).  
 **Target variable:** `measured logS` — aqueous solubility in mol/L.  
 
-### 🔬 Key Molecular Features
+###  Key Molecular Features
 | Descriptor | Meaning |
 |-------------|----------|
 | Molecular Weight | Total mass of the molecule |
@@ -38,34 +32,34 @@ The notebook — `Molecular_Properties_for_Drug_Discovery.ipynb` — walks throu
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
-### 🧩 Tools and Libraries
+### Tools and Libraries
 - **Data Processing:** `pandas`, `numpy`
 - **Visualization:** `matplotlib`, `seaborn`
 - **Machine Learning:** `scikit-learn`
 - **Environment:** Google Colab / Jupyter Notebook
 
-### 🧠 Models Applied
+###  Models Applied
 | Model | Type | Purpose |
 |--------|------|----------|
 | Linear Regression | Baseline | Understand linear relation between descriptors and solubility |
 | Random Forest Regressor | Ensemble | Capture non-linear molecular relationships |
 
-### 📈 Evaluation Metrics
+### Evaluation Metrics
 - **RMSE (Root Mean Squared Error)** — Measures prediction error magnitude  
 - **R² Score (Coefficient of Determination)** — Measures goodness of fit  
 
 ---
 
-## 🧪 Results Summary
+## Results Summary
 
 | Model | RMSE | R² |
 |--------|------|----|
 | Linear Regression | ~0.90 | ~0.75 |
 | Random Forest | ~0.60 | ~0.88 |
 
-> 🧠 **Interpretation:**  
+>  **Interpretation:**  
 > Random Forest performed significantly better, capturing complex molecular interactions that affect solubility.  
 >  
 > Key influential features include:  
@@ -75,7 +69,7 @@ The notebook — `Molecular_Properties_for_Drug_Discovery.ipynb` — walks throu
 
 ---
 
-## 📉 Visualization Highlights
+##  Visualization Highlights
 
 The notebook includes:
 - **Heatmap** of descriptor correlations  
@@ -85,7 +79,7 @@ The notebook includes:
 
 ---
 
-## 🧩 Key Takeaways
+##  Key Takeaways
 
 - Physicochemical descriptors can effectively model solubility trends.  
 - Random Forests offer strong generalization and interpretability in QSAR models.  
@@ -93,7 +87,7 @@ The notebook includes:
 
 ---
 
-## 🚀 Future Work
+## Future Work
 
 - Integrate **molecular fingerprints** (e.g., ECFP, Morgan)  
 - Compare with **advanced models** (XGBoost, LightGBM, or deep learning)  
@@ -102,5 +96,5 @@ The notebook includes:
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
